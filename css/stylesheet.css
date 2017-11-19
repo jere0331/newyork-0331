@@ -1242,7 +1242,211 @@ body{
   transform: translateY(-25%);
 }
 
+.manhattan{
+    text-align: center;
+   justify-content: center;
+  align-items:center; 
+   font-family: 'Indie Flower', cursive;
+  font-size: 25px;
+    
+}
 
 
+/* Broklyn*/
+
+.info {
+  max-width: 1200px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+a {
+  color: #2c3e50;
+}
+
+.a {
+  margin: 0 auto;
+  max-width: 1200px;
+  width: 100%;
+  height: 600px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  overflow: hidden;
+  background: rgba(66, 66, 66, 0.5) url(../images/broklyn.jpg) repeat fixed;
+  background-position:  100%;
+  background-size: cover;
+  position: relative;
+  z-index: 5;
+}
+
+.b {
+  width: 30px;
+  height: 30px;
+  float: left;
+  position: relative;
+  z-index: 4;
+  padding: 2px;
+  -webkit-transition: all 2.5s linear;
+  transition: all 2.5s linear;
+  background: rgba(66, 66, 66, 0.5) url(../images/broklyn.jpg) repeat fixed;
+  background-size: cover;
+  background-position:  100%;
+  border-radius: 0%;
+}
+.b:hover {
+  -webkit-transition: all 0s linear;
+  transition: all 0s linear;
+  -webkit-filter: blur(12px);
+          filter: blur(12px);
+  border-radius: 100%;
+  -webkit-transform: rotate(0deg) scale(2);
+          transform: rotate(0deg) scale(2);
+}
+
+.c {
+  display: block;
+  position: absolute;
+  z-index: 2;
+  width: 100%;
+  text-align: center;
+  top: 35px;
+  font-size: 40px;
+  color: #2c3e50;
+  text-shadow: 0 5px 17px rgba(87, 87, 80, 0.85);
+}
 
 
+/* Manhattan*/
+
+.info {
+  max-width: 1200px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+a {
+  color: #2c3e50;
+}
+
+.w {
+  margin: 0 auto;
+  max-width: 1200px;
+  width: 100%;
+  height: 600px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  overflow: hidden;
+  background: rgba(66, 66, 66, 0.5) url(../images/manhattan.jpg) repeat fixed;
+  background-position:  100%;
+  background-size: cover;
+  position: relative;
+  z-index: 5;
+}
+
+.i {
+  width: 30px;
+  height: 30px;
+  float: left;
+  position: relative;
+  z-index: 4;
+  padding: 2px;
+  -webkit-transition: all 2.5s linear;
+  transition: all 2.5s linear;
+  background: rgba(66, 66, 66, 0.5) url(../images/manhattan.jpg) repeat fixed;
+  background-size: cover;
+  background-position:  100%;
+  border-radius: 0%;
+}
+.i:hover {
+  -webkit-transition: all 0s linear;
+  transition: all 0s linear;
+  -webkit-filter: blur(12px);
+          filter: blur(12px);
+  border-radius: 100%;
+  -webkit-transform: rotate(0deg) scale(2);
+          transform: rotate(0deg) scale(2);
+}
+
+.h {
+  display: block;
+  position: absolute;
+  z-index: 2;
+  width: 100%;
+  text-align: center;
+  top: 35px;
+  font-size: 40px;
+  color: #2c3e50;
+  text-shadow: 0 5px 17px rgba(87, 87, 80, 0.85);
+}
+
+/* Staten Island*/
+
+.info {
+  max-width: 1200px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+a {
+  color: #2c3e50;
+}
+
+.ab {
+  margin: 0 auto;
+  max-width: 1200px;
+  width: 100%;
+  height: 600px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  overflow: hidden;
+  background: rgba(66, 66, 66, 0.5) url(../images/staten.jpg) repeat fixed;
+  background-position:  100%;
+  background-size: cover;
+  position: relative;
+  z-index: 5;
+}
+
+.bc {
+  width: 30px;
+  height: 30px;
+  float: left;
+  position: relative;
+  z-index: 4;
+  padding: 2px;
+  -webkit-transition: all 2.5s linear;
+  transition: all 2.5s linear;
+  background: rgba(66, 66, 66, 0.5) url(../images/staten.jpg) repeat fixed;
+  background-size: cover;
+  background-position:  100%;
+  border-radius: 0%;
+}
+.bc:hover {
+  -webkit-transition: all 0s linear;
+  transition: all 0s linear;
+  -webkit-filter: blur(12px);
+          filter: blur(12px);
+  border-radius: 100%;
+  -webkit-transform: rotate(0deg) scale(2);
+          transform: rotate(0deg) scale(2);
+}
+
+.cd {
+  display: block;
+  position: absolute;
+  z-index: 2;
+  width: 100%;
+  text-align: center;
+  top: 35px;
+  font-size: 40px;
+  color: #2c3e50;
+  text-shadow: 0 5px 17px rgba(87, 87, 80, 0.85);
+}
